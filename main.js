@@ -4,7 +4,6 @@ $(function(){
     })
 
 
-
     //사이트 맵 close 
     $('#site-map-btn').click(function(){
         $('.sitemap-modal').addClass('on');

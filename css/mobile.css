@@ -34,12 +34,14 @@ body{
 }
 #gnb.on{
 display: block;
+z-index: 100;
 }
 #gnb>ul>li:not(:last-child){
-margin-bottom: 10px;
+margin-bottom: 1.5em;
 }
 #gnb>ul>li>a{
     color: #333;
+    font-size: 18px;
 }
 .rigth-menu{
     display: flex;
@@ -50,4 +52,59 @@ margin-bottom: 10px;
     top: 20px;
     border-style: none;
     background-color: transparent;
+}
+#gnb-toggle-btn:hover{
+    cursor: pointer;
+}
+.swiper {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: #ccc;
+  }
+.swiper .swiper-slide.s1{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
+.swiper .swiper-slide.s2{
+    background-image: url(../images/main--visual2.jpg);
+    background-size: cover;
+}
+.swiper .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    transform: translateY(-50px);
+}
+.title h2{ 
+    font-size: 36px;
+    font-weight: 500;
+}
+.title h2 span{
+    font-size: 24px;
+    font-weight: 400;
+}
+.swiper-button-prev,
+.swiper-button-next{
+    color: #fff;
+    display: none;
+}
+.swiper-pagination-bullet{
+    width: 14px;
+    height: 14px;
+    border: 1.5px solid rgba(255, 255, 255, 0.905);
+    border-radius: 0;
+    background-color: transparent;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: #fff;
+    opacity: 1;
+}
+.swiper-pagination{
+    bottom: 50px !important;
 }

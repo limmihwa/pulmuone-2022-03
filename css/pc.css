@@ -113,10 +113,13 @@ body{
 .swiper .swiper-slide.s1{
     background-image: url(../images/bg.jpg);
     background-size: cover;
+    background-position: center;
 }
 .swiper .swiper-slide.s2{
     background-image: url(../images/main--visual2.jpg);
     background-size: cover;
+    background-position: center;
+
 }
 .swiper .swiper-slide{
     display: flex;

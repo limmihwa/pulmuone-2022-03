@@ -4,7 +4,7 @@ const swiper = new Swiper('.swiper', {
     effect: 'fade',
     loop: true,
     autoplay: {
-        delay:5000
+        delay:7000
     },
   
     // 하단 버튼 UI
