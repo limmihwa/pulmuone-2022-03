@@ -8,7 +8,14 @@ body{
 .container{
     width: 1440px;
     margin: 0 auto;
-    outline: 1px solid #ccc;
+}
+
+section h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+section p{
+    font-size: 20px;
 }
 #main-header{
     position: relative;
@@ -157,4 +164,125 @@ body{
 }
 .swiper-pagination{
     bottom: 50px !important;
+}
+/*메인 컨텐츠 부분*/
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+main section.container {
+    display: flex;
+}
+main section > img{
+    width: 50%;
+}
+main section.container .text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.detail-btn{
+    display: block;
+    margin-top: 40px;
+    width: 220px;
+    height: 48px;
+    border: 1px solid #333;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    line-height: 48px;
+    font-size: 16px;
+    color: #333;
+}
+main section.container:nth-child(2n){
+    flex-direction: row-reverse;
+}
+#about h2{
+    font-size: 48px;
+    margin-top: 125px;
+    margin-bottom: 0;
+}
+
+#about{
+    height: 550px;
+    background-image: url(../images/about-img.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+#about .container >a{
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+#about .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#about .container p{
+    margin-top: 40px;
+}
+#about .container .detail-btn{
+    margin-top: 50px;
+}
+#main-footer{
+    width: 1440px;
+    height: 236px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+#main-footer .menu-box{
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #adadad;
+}
+#main-footer .menu-box .footer-menu{
+    display: flex;
+}
+#main-footer .menu-box .footer-menu a{
+    color: #333;
+}
+#main-footer .menu-box .footer-menu span{
+    margin-right: 38px;
+    margin-left: 38px;
+}
+#main-footer .menu-box .sns-group{
+    display: flex;
+
+}
+#main-footer .menu-box .sns-group img{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#main-footer .footer-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+#main-footer .footer-info > img{
+    width: 107px;
+    height: 36px;
+}
+#main-footer .footer-info-text{
+    margin-left: -600px;
+}
+#main-footer .footer-info-text p{
+    margin-bottom: 10px;
+}
+#main-footer .footer-info .top-btn{
+    border: 1px solid #333;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
 }

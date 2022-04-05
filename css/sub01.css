@@ -1,0 +1,132 @@
+#breadcrurmbs{
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #8DC63F;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+#home-icon{
+    width: 134px;
+    height: 100px;
+    border-right: 1px solid #fff;
+}
+#home-icon img{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+#info{
+    width: 256px;
+    color: #fff;
+    margin-left: 32px;
+    font-size: 18px;
+    border-right: 1px solid #fff;
+    height: 100px;
+    padding-top: 37px;
+}
+#ci{
+    width: 1050px;
+    color: #fff;
+    margin-left: 32px;
+    font-size: 18px;
+    height: 100px;
+    padding-top: 37px;
+}
+main{
+    margin: 0 auto;
+    width: 1440px;
+    padding-bottom: 150px;
+}
+.small-h{
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 56px;
+}
+.small-h img{
+    margin-left: 29px;
+    position: relative;
+    top: -10px;
+}
+#contants1{
+    text-align: center;
+}
+#contants1 h1{
+    font-size: 48px;
+    text-align: center;
+    color: #333;
+    padding-top: 67px;
+
+}
+#contants1 h1>span{
+    color: #8DC63F;
+}
+#contants1 img{
+    margin-top: 17px;
+    margin-bottom: 50px;
+
+}
+#contants1 p{
+    width: 1200px;
+    font-size: 24px;
+    margin: 0 auto;
+}
+#contants2{
+    text-align: center;
+}
+.bar{
+    width: 90px;
+    height: 5px;
+    background-color: #8DC63F;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 72px;
+    margin-bottom: 40px;
+}
+#contants2 h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+#contants2 .first-p{
+    color: #8DC63F;
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.second{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 24px;
+    margin-bottom: 180px;
+}
+#contants3{
+    margin: 0 auto;
+    text-align: center;
+}
+.logo-img1{
+    width: 317px;
+    height: 108px;
+    margin: 0 auto;
+}
+#contants3 h3{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#contants3 p{
+    font-size: 24px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo-img2{
+    width: 319px;
+    height: 43px;
+    margin-top: 60px;
+}
+.img4{
+    margin-top: 80px;
+    margin-bottom: 150px;
+    width: 272px;
+    height: 51px;
+}
