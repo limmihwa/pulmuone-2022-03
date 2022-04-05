@@ -1,0 +1,138 @@
+#breadcrurmbs{
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #8DC63F;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+#home-icon{
+    width: 134px;
+    height: 100px;
+    border-right: 1px solid #fff;
+}
+#home-icon img{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+#info{
+    width: 256px;
+    color: #fff;
+    margin-left: 32px;
+    font-size: 18px;
+    border-right: 1px solid #fff;
+    height: 100px;
+    padding-top: 37px;
+}
+#ci{
+    width: 1050px;
+    color: #fff;
+    margin-left: 32px;
+    font-size: 18px;
+    height: 100px;
+    padding-top: 37px;
+}
+main{
+    width: 1200px;
+    height: 2600px;
+    background-color: #e5e5e5;
+    margin: 0 auto;
+}
+#news1{
+    display: flex;
+    padding-top: 150px;
+}
+.news-text{
+    background-color: #fff;
+    border-radius: 0px 10px 10px 0px;
+
+}
+.news-text> h3{
+    tab-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 31px;
+    margin-bottom: 57px;
+}
+.news-text a{
+    color: #000;
+}
+.text h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 1em;
+    width: 423px;
+    margin-left: 31px;
+}
+.text> p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 31px;
+    margin-right: 29px;
+}
+.news-text .date{
+    font-size: 14px;
+    margin-left: 500px;
+}
+#news2{
+    display: flex;
+    padding-top: 100px;
+}
+#news2 .text p{
+    font-size: 32px;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    margin-left: 50px;
+    width: 600px;
+}
+#news2 .text .date{
+    font-size: 18px;
+    margin-left: 500px;
+}
+#news3{
+    display: flex;
+    padding-top: 100px;
+}
+#news3 .text p{
+    font-size: 32px;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    margin-left: 50px;
+    width: 600px;
+}
+#news3 .text .date{
+    font-size: 18px;
+    margin-left: 500px;
+}
+#news4{
+    display: flex;
+    padding-top: 100px;
+}
+#news4 .text p{
+    font-size: 32px;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    margin-left: 50px;
+    width: 600px;
+}
+#news4 .text .date{
+    font-size: 18px;
+    margin-left: 500px;
+}
+#news5{
+    display: flex;
+    padding-top: 100px;
+}
+#news5 .text p{
+    font-size: 32px;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    margin-left: 50px;
+    width: 600px;
+}
+#news5 .text .date{
+    font-size: 18px;
+    margin-left: 500px;
+}

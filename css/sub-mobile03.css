@@ -1,0 +1,136 @@
+.pc-only{
+    display: none;
+}
+#breadcrurmbs{
+    width: 100%;
+    background-color: #8DC63F;
+    height: 50px;
+}
+#home-icon{
+    width: 134px;
+    height: 50px;
+    border-right: 1px solid #fff;
+}
+#home-icon img{
+    width: 20px;
+    height: 20px;
+    margin-left: 57px;
+    margin-top: 17px;
+}
+main{
+    width: 100%;
+    margin: 0 auto;
+    height: 3400px;
+    background-color: #e5e5e5;
+}
+#news1{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.news-text{
+    background-color: #fff;
+    border-radius: 0px 10px 10px 0px;
+
+}
+.news-text> h3{
+    tab-size: 18px;
+    font-weight: 300;
+    margin-top: 17px;
+    margin-left: 30px;
+    margin-bottom: 16px;
+}
+.news-text a{
+    color: #000;
+}
+.text h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1em;
+    width: 292px;
+    margin-left: 30px;
+    text-align: center;
+}
+.text> p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    margin-left: 31px;
+    margin-right: 29px;
+}
+.news-text .date{
+    font-size: 14px;
+    margin-left: 280px;
+}
+#news2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+#news2 .text p{
+    font-size: 24px;
+    margin-top: 49px;
+    color: #000;
+    margin-bottom: 59px;
+    margin-left: 32px;
+    width: 317px;
+}
+#news2 .text .date{
+    font-size: 14px;
+    margin-left: 250px;
+}
+
+#news3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+#news3 .text p{
+    font-size: 24px;
+    margin-top: 49px;
+    color: #000;
+    margin-bottom: 59px;
+    margin-left: 32px;
+    width: 317px;
+}
+#news3 .text .date{
+    font-size: 14px;
+    margin-left: 250px;
+}
+
+
+#news4{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+#news4 .text p{
+    font-size: 24px;
+    margin-top: 49px;
+    color: #000;
+    margin-bottom: 59px;
+    margin-left: 32px;
+    width: 317px;
+}
+#news4 .text .date{
+    font-size: 14px;
+    margin-left: 250px;
+}
+
+#news5{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+#news5 .text p{
+    font-size: 24px;
+    margin-top: 49px;
+    color: #000;
+    margin-bottom: 59px;
+    margin-left: 32px;
+    width: 317px;
+}
+#news5 .text .date{
+    font-size: 14px;
+    margin-left: 250px;
+}
