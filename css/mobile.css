@@ -24,7 +24,7 @@ body{
     width: 100px;
 }
 #gnb{
-    background-color: #ddd;
+    background: rgba(162, 196, 165, 0.8);
     position: absolute;
     width:100%;
     top: 70px;
@@ -39,7 +39,7 @@ z-index: 100;
 margin-bottom: 1.5em;
 }
 #gnb>ul>li>a{
-    color: #333;
+    color: #f5f5f5;
     font-size: 18px;
 }
 .rigth-menu{
