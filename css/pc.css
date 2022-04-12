@@ -64,7 +64,7 @@ section p{
 }
 .sitemap-modal {
     position: fixed;
-    background: #000;
+    background: #71aa21;
     left: 0;
     top: 0;
     width: 100vw;
@@ -106,8 +106,8 @@ section p{
     background: transparent;
     border-style: none;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 50px;
+    right: 50px;
 }
 #sitemap-modal-close:hover{
     cursor: pointer;
